@@ -1,0 +1,24 @@
+--------------------------
+----- GIT COMMANDS -------
+--------------------------
+git clone (github url): This clones a particular project for multiple users to change.
+
+git status: THis is to check whether changes have been made to the project. 
+
+git add . or add (file e.g index.html): This is to add the changes made to the project.
+
+git commit -m"Whatever message you'd like to send to the receiver.": This is to leave a message for others working on the project to notify them of a change or changes.
+
+git push: This is to push all the changes made to github.
+
+git pull: This is to pull all the updated changes from github and modify your work.
+
+git branch: This shows the branches available.
+
+git branch (name) : This adds a new branch.
+
+git checkout (name): This moves you into the branch name selected.
+
+git merge master: This merges whatever is in the master branch into your own branch. This is to check if there are conflicts in the project. 
+
+git push origin (branch name): This is to avoid error when pushing from a different branch. 

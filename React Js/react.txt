@@ -1,0 +1,8 @@
+----- Terminal Code -----
+npm install -g create-react-app : To install a react app.
+ 
+create-react-app (name) :  To begin a new react app. 
+
+npm start : This starts up an embedded live server in react. 
+
+npm run build : This generates a production build for a minified version of your app. 

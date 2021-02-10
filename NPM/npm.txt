@@ -1,0 +1,30 @@
+Npm Website : www.npmjs.com
+Node JS Website : www.nodejs.org/en/download/
+
+---- Terminal Check ----
+npm -v : Checks the version of npm installed (higher than 5.5.1)
+
+node -v : Checks the version of node installed (higher than v8.9.1)
+
+npm install npm@latest -g : This installs the latest verion of npm to your system.
+
+runas npm install react : This is for fixing errors when trying to install packages from npm. 
+
+npm init : This is for creating a package.json file. Just best to keep pressing enter until it is completed.
+
+npm install -g (name of package) : This is installs the package from npm globally meaning it can be used anywhere on your computer.
+
+live-server: This opens the live-server package installed.
+
+lodash : A modern Javascript library to get help and more info. 
+
+browserify (script name) > (new script to be bundled.): This allows new packages added to be visible by the browser.
+
+Ctrl+c  : This is used to terminate a live server in the terminal.   
+
+Note: You do not upload packages to github but rather the package.json file since it's all embedded there. And once deleted to review just type npm install and all the packages of the dependencies will be brought back.
+
+In the script section of the package.json file you can add your script for bundling
+e.g browserify back_test.js > bundle.js && live-server
+
+npm run (script name added to package.json)
